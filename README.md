@@ -53,7 +53,12 @@ Créer une plateforme centralisée pour :
 
 <img width="366" alt="image" src="https://github.com/user-attachments/assets/39c67dff-8789-45f8-9b7b-78967737dba5" />
 
+-**La creation des tables**
+
 <img width="346" alt="image" src="https://github.com/user-attachments/assets/823cc2d7-b043-4701-9cf6-af8503cfe2b2" />
+
+-**Les Alters des tables**
+
 <img width="417" alt="image" src="https://github.com/user-attachments/assets/ab3f8008-fb77-408b-980e-dcae827c603e" />
 
 -**Les insertions**
