@@ -1,4 +1,4 @@
-# <span style="color:green;">🌍 Plateforme de Dons Caritatifs</span>
+# <span style="color:green;">🌍🤝 Plateforme de Dons Caritatifs</span>
 
 📚 **Sommaire**
 
@@ -106,9 +106,19 @@ Exemples de données insérées dans les tables `Cause`, `Don`, `Categorie`, et 
 - **Hibernate** – Pour la gestion de la persistance des données de manière orientée objet.
 - **JDBC** – Utilisé ponctuellement pour des requêtes spécifiques non prises en charge par l'ORM.
 
-### 🗃️ **Base de données**
+## 🗃️ **Base de Données**
 
-- **MySQL** – Système relationnel pour la gestion des données des causes, dons, utilisateurs et catégories.
+- **MySQL** : Base de données relationnelle pour stocker les données des utilisateurs, dons, et causes.
+
+  - Utilise **XAMPP** pour gérer MySQL.
+  - Accède à **phpMyAdmin** pour créer et gérer les tables.
+
+### Entités principales :
+
+- **User** : Classe de base pour les utilisateurs (nom, email, mot de passe).
+- **Donneur** et **Admin** : Héritent de **User**.
+- **Cause** : Titre, description, objectif, catégorie.
+- **Don** : Montant, date, cause, donneur.
 
 ---
 
