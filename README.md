@@ -55,7 +55,11 @@ Créer une plateforme centralisée pour :
 
 <img width="346" alt="image" src="https://github.com/user-attachments/assets/823cc2d7-b043-4701-9cf6-af8503cfe2b2" />
 <img width="417" alt="image" src="https://github.com/user-attachments/assets/ab3f8008-fb77-408b-980e-dcae827c603e" />
+
+-**Les insertions**
+
 <img width="335" alt="image" src="https://github.com/user-attachments/assets/489d4558-402f-40cf-8e5d-c26310761d2e" />
+
 <img width="413" alt="image" src="https://github.com/user-attachments/assets/1c78272a-eacd-4df7-b804-a57689576a13" />
 
 -**Les filtrages**
