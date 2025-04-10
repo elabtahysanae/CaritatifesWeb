@@ -28,7 +28,7 @@ public class Cause {
     private int id ;
     private String titre ;
     private String description ;
-    private int objectif ;
+    private float objectif ;
     
     @ManyToOne
     @JoinColumn(name = "categories_id")
@@ -41,7 +41,7 @@ public class Cause {
     public Cause() {
     }
 
-    public Cause( String titre, String description, int objectif) {
+    public Cause( String titre, String description, float objectif) {
        
         this.titre = titre;
         this.description = description;
@@ -72,11 +72,11 @@ public class Cause {
         this.description = description;
     }
 
-    public int getObjectif() {
+    public float getObjectif() {
         return objectif;
     }
 
-    public void setObjectif(int objectif) {
+    public void setObjectif(float objectif) {
         this.objectif = objectif;
     }
 
