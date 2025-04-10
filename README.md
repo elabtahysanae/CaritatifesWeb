@@ -48,7 +48,7 @@ Créer une plateforme centralisée pour :
 
 ## 🧩 **Diagramme de Classe**
 
-[Insérer ici une image de ton diagramme de classe.]
+![WhatsApp Image 2025-04-10 at 04 44 04_ea2fc900](https://github.com/user-attachments/assets/8766881e-4603-4cb8-9009-e38dfef2d505)
 
 ---
 
@@ -59,11 +59,15 @@ Voici les principales entités du modèle de base de données :
 - **Cause** : Titre, Description, Objectif, Catégorie.
 - **Don** : Montant, Date, Cause (relation avec `Cause`), Donneur (relation avec `User`).
 - **Catégorie** : Nom de la catégorie (ex. : Santé, Éducation, Environnement).
-- **User (Donneur)** : Nom, Email, Mot de passe.
+- **User** : Nom, Email, Mot de passe.
+- **Admin** : il va heriter du user (Nom, Email, Mot de passe).
+- **Donneur** : il va heriter du user (Nom, Email, Mot de passe).
+ 
 
 ---
 
 ## ⚙️ **Exécution des Tests**
+
 
 ### 1. **Création des tables**
 
@@ -72,7 +76,9 @@ Création de la base de données et des tables :
 - **Cause** : `id`, `titre`, `description`, `objectif`, `categorie_id` (clé étrangère).
 - **Don** : `id`, `montant`, `date`, `cause_id` (clé étrangère), `donneur_id` (clé étrangère).
 - **Categorie** : `id`, `nom`.
-- **User (Donneur)** : `id`, `nom`, `email`, `motDePasse`.
+- **User** : `id`, `nom`, `email`, `motDePasse`.
+- **Donneur** : il y'a un heritage du table User.
+- **Admin** : il y'a un heritage du table User.
 
 ### 2. **Ajout de clés étrangères**
 Les relations entre les tables sont gérées par les clés étrangères (par exemple, `cause_id` dans la table `Don`).
@@ -88,13 +94,6 @@ Exemples de données insérées dans les tables `Cause`, `Don`, `Categorie`, et 
 
 ## 🛠 **Technologies**
 
-### 🖥️ **Côté client (Frontend)**
-
-- **HTML5 / CSS3** – Pour la structure et le style des pages.
-- **JavaScript** – Pour les interactions dynamiques et la logique côté client.
-- **AJAX** – Permet des échanges asynchrones avec le serveur sans recharger la page (dons en temps réel).
-- **Chart.js** – Génération de graphiques interactifs pour les statistiques liées aux dons et causes.
-
 ### ⚙️ **Côté serveur (Backend)**
 
 - **Java Web** – Technologie principale pour la logique métier.
@@ -107,8 +106,3 @@ Exemples de données insérées dans les tables `Cause`, `Don`, `Categorie`, et 
 
 ---
 
-## 📌 **Installation et Lancement**
-
-1. Clonez le repository sur votre machine locale :
-   ```bash
-   git clone https://github.com/ton-utilisateur/plateforme-dons-caritatifs.git
