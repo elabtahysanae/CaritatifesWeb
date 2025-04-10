@@ -54,19 +54,25 @@ Créer une plateforme centralisée pour :
 
 ## 🗃️ **Modèle Conceptuel de la Base**
 
-Voici les principales entités du modèle de base de données :
+![WhatsApp Image 2025-04-10 at 04 21 48_8d760840](https://github.com/user-attachments/assets/25982d15-a2af-42ae-8678-3e912b1f1ca9)
 
-- **Cause** : Titre, Description, Objectif, Catégorie.
-- **Don** : Montant, Date, Cause (relation avec `Cause`), Donneur (relation avec `User`).
-- **Catégorie** : Nom de la catégorie (ex. : Santé, Éducation, Environnement).
-- **User** : Nom, Email, Mot de passe.
-- **Admin** : il va heriter du user (Nom, Email, Mot de passe).
-- **Donneur** : il va heriter du user (Nom, Email, Mot de passe).
- 
 
 ---
 
 ## ⚙️ **Exécution des Tests**
+
+![WhatsApp Image 2025-04-10 at 04 07 01_d1be7859](https://github.com/user-attachments/assets/fa12c6c4-aae8-461a-a822-19d727f38f85)
+
+![WhatsApp Image 2025-04-10 at 03 48 14_36709285](https://github.com/user-attachments/assets/ad17a4bd-d99b-4722-9118-fa9d8952f89d)
+
+![WhatsApp Image 2025-04-10 at 03 49 29_82167f8b](https://github.com/user-attachments/assets/b5bc03f0-5f64-4e08-9236-8341cb9f62fb)
+
+![WhatsApp Image 2025-04-10 at 03 53 11_04afdd52](https://github.com/user-attachments/assets/5837e101-a925-47f9-ac23-f88c24c378da)
+
+![WhatsApp Image 2025-04-10 at 04 07 47_687c758c](https://github.com/user-attachments/assets/7e1d5640-dec1-4765-aaa1-0c60ba6f5a89)
+
+![WhatsApp Image 2025-04-10 at 03 57 29_8b4e1b8a](https://github.com/user-attachments/assets/e2218293-37e9-4c35-be36-bd1c030c634d)
+
 
 
 ### 1. **Création des tables**
