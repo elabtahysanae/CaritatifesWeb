@@ -49,7 +49,7 @@ Créer une plateforme centralisée pour :
 
 ## 🗃️ **Modèle Conceptuel de la Base**
 
-<img width="491" alt="image" src="https://github.com/user-attachments/assets/7a1a8b88-cec2-45ee-8e1a-9e5b6ca8e113" />
+<img width="487" alt="image" src="https://github.com/user-attachments/assets/366212c8-5cbc-4ad2-b4dd-ee0b9e5b30a9" />
 
 ---
 
