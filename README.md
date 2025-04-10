@@ -1,35 +1,25 @@
 # <span style="color:green;">🌍🤝 Plateforme de Dons Caritatifs</span>
 
-📚 **Sommaire**
-
-- 📌 **Contexte**
-- ❓ **Problématique**
-- 🎯 **Objectifs**
-- 🧩 **Diagramme de Classe**
-- 🗃️ **Modèle Conceptuel de la Base**
-- ⚙️ **Exécution des Tests**
-- 🛠 **Technologies**
-
 ---
 
 ## 📌 **Contexte**
 
-Ce projet est une application web développée en **Java** pour la gestion des dons caritatifs. Elle permet :
+La gestion des dons caritatifs représente aujourd’hui un défi pour de nombreuses organisations, souvent confrontées à un manque d’outils adaptés pour suivre efficacement les campagnes, les contributions et l’engagement des donneurs. Ce projet consiste en la création d’une application web développée en Java, pensée pour centraliser et simplifier l’ensemble du processus.Elle permet:
 
-- Aux **organisations caritatives** de gérer des **causes** et des **dons**.
-- Aux **donneurs** de consulter et faire des dons à des causes spécifiques.
-- À l'**administration** de suivre les statistiques des dons par cause.
+- Aux **organisations caritatives** de créer et suivre leurs campagnes.
+- aux **donneurs** d’accéder facilement aux **causes** qui les touchent et de contribuer en ligne .
+- À l'**administration** de disposer de statistiques détaillées pour piloter l’ensemble de l’activité.
 
 ---
 
 ## ❓ **Problématique**
 
-La gestion manuelle des dons caritatifs présente plusieurs défis :
-
-- Difficulté à suivre l’évolution des dons par cause.
-- Manque de visibilité sur l'impact des dons collectés.
-- Processus d’attribution de dons aux causes chronophage.
-- Absence de suivi des statistiques pour analyser les performances des campagnes.
+La gestion manuelle des dons caritatifs engendre plusieurs limitations majeures qui freinent l’efficacité et la transparence des actions menées.
+-Tout d’abord, il est souvent difficile de suivre précisément l’évolution des dons associés à chaque cause, notamment en l’absence d’un système centralisé de collecte et d’enregistrement.
+-Le manque de traçabilité rend également plus complexe l’évaluation de l’impact réel des fonds collectés sur les projets soutenus.
+-Par ailleurs, l’attribution des dons aux différentes causes reste une tâche chronophage, nécessitant des traitements manuels, souvent sources d’erreurs ou de retards. 
+-Enfin, l’absence d’un outil de suivi statistique empêche les organisations d’analyser les performances de leurs campagnes, de mesurer leur efficacité et d’ajuster leurs stratégies en conséquence.
+-Ces défis soulignent la nécessité d’un système automatisé et structuré pour gérer les dons de manière plus efficace, transparente et durable.
 
 ---
 
@@ -61,40 +51,13 @@ Créer une plateforme centralisée pour :
 
 ## ⚙️ **Exécution des Tests**
 
-![WhatsApp Image 2025-04-10 at 04 07 01_d1be7859](https://github.com/user-attachments/assets/fa12c6c4-aae8-461a-a822-19d727f38f85)
+<img width="366" alt="image" src="https://github.com/user-attachments/assets/39c67dff-8789-45f8-9b7b-78967737dba5" />
 
-![WhatsApp Image 2025-04-10 at 03 48 14_36709285](https://github.com/user-attachments/assets/ad17a4bd-d99b-4722-9118-fa9d8952f89d)
-
-![WhatsApp Image 2025-04-10 at 03 49 29_82167f8b](https://github.com/user-attachments/assets/b5bc03f0-5f64-4e08-9236-8341cb9f62fb)
-
-![WhatsApp Image 2025-04-10 at 03 53 11_04afdd52](https://github.com/user-attachments/assets/5837e101-a925-47f9-ac23-f88c24c378da)
-
-![WhatsApp Image 2025-04-10 at 04 07 47_687c758c](https://github.com/user-attachments/assets/7e1d5640-dec1-4765-aaa1-0c60ba6f5a89)
-
-![WhatsApp Image 2025-04-10 at 03 57 29_8b4e1b8a](https://github.com/user-attachments/assets/e2218293-37e9-4c35-be36-bd1c030c634d)
-
-
-
-### 1. **Création des tables**
-
-Création de la base de données et des tables :
-
-- **Cause** : `id`, `titre`, `description`, `objectif`, `categorie_id` (clé étrangère).
-- **Don** : `id`, `montant`, `date`, `cause_id` (clé étrangère), `donneur_id` (clé étrangère).
-- **Categorie** : `id`, `nom`.
-- **User** : `id`, `nom`, `email`, `motDePasse`.
-- **Donneur** : il y'a un heritage du table User.
-- **Admin** : il y'a un heritage du table User.
-
-### 2. **Ajout de clés étrangères**
-Les relations entre les tables sont gérées par les clés étrangères (par exemple, `cause_id` dans la table `Don`).
-
-### 3. **Insertion des données**
-Exemples de données insérées dans les tables `Cause`, `Don`, `Categorie`, et `User`.
-
-### 4. **Sélection des données**
-- Affichage des dons effectués pour une cause donnée.
-- Visualisation des statistiques par cause (nombre de dons, montant total collecté).
+<img width="346" alt="image" src="https://github.com/user-attachments/assets/823cc2d7-b043-4701-9cf6-af8503cfe2b2" />
+<img width="417" alt="image" src="https://github.com/user-attachments/assets/ab3f8008-fb77-408b-980e-dcae827c603e" />
+<img width="335" alt="image" src="https://github.com/user-attachments/assets/489d4558-402f-40cf-8e5d-c26310761d2e" />
+<img width="413" alt="image" src="https://github.com/user-attachments/assets/1c78272a-eacd-4df7-b804-a57689576a13" />
+<img width="483" alt="image" src="https://github.com/user-attachments/assets/f3446717-4fc7-4797-9c13-f675e31d888e" />
 
 ---
 
@@ -110,8 +73,8 @@ Exemples de données insérées dans les tables `Cause`, `Don`, `Categorie`, et 
 
 - **MySQL** : Base de données relationnelle pour stocker les données des utilisateurs, dons, et causes.
 
-  - Utilise **XAMPP** pour gérer MySQL.
-  - Accède à **phpMyAdmin** pour créer et gérer les tables.
+  - Utilisant **XAMPP** pour gérer MySQL.
+  - Utilisant à **phpMyAdmin** pour acceder aux tables.
 
 ### Entités principales :
 
@@ -119,6 +82,7 @@ Exemples de données insérées dans les tables `Cause`, `Don`, `Categorie`, et 
 - **Donneur** et **Admin** : Héritent de **User**.
 - **Cause** : Titre, description, objectif, catégorie.
 - **Don** : Montant, date, cause, donneur.
+- **Categorie** : nom.
 
 ---
 
