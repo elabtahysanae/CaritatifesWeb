@@ -27,12 +27,12 @@ La gestion manuelle des dons caritatifs engendre plusieurs limitations majeures 
 
 Créer une plateforme centralisée pour :
 
-- 📋 **Lister toutes les causes** disponibles.
-- 👥 **Permettre aux donneurs de faire des dons** en ligne.
-- 📊 **Générer des statistiques par cause** (par exemple, montant total collecté, nombre de donneurs).
+-  **Lister toutes les causes** disponibles.
+-  **Permettre aux donneurs de faire des dons** en ligne.
+-  **Générer des statistiques par cause** (par exemple, montant total collecté, nombre de donneurs).
 - Fournir aux **donneurs** :
-  - 👀 **Visualisation des causes** auxquelles ils peuvent participer.
-  - 🔔 **Notifications de la progression des causes** et des campagnes.
+  -  **Visualisation des causes** auxquelles ils peuvent participer.
+  -  **Notifications de la progression des causes** et des campagnes.
 
 ---
 
@@ -44,8 +44,7 @@ Créer une plateforme centralisée pour :
 
 ## 🗃️ **Modèle Conceptuel de la Base**
 
-![WhatsApp Image 2025-04-10 at 04 21 48_8d760840](https://github.com/user-attachments/assets/25982d15-a2af-42ae-8678-3e912b1f1ca9)
-
+<img width="491" alt="image" src="https://github.com/user-attachments/assets/7a1a8b88-cec2-45ee-8e1a-9e5b6ca8e113" />
 
 ---
 
