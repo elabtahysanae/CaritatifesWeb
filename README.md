@@ -14,12 +14,17 @@ La gestion des dons caritatifs représente aujourd’hui un défi pour de nombre
 
 ## ❓ **Problématique**
 
-La gestion manuelle des dons caritatifs engendre plusieurs limitations majeures qui freinent l’efficacité et la transparence des actions menées.
--Tout d’abord, il est souvent difficile de suivre précisément l’évolution des dons associés à chaque cause, notamment en l’absence d’un système centralisé de collecte et d’enregistrement.
--Le manque de traçabilité rend également plus complexe l’évaluation de l’impact réel des fonds collectés sur les projets soutenus.
--Par ailleurs, l’attribution des dons aux différentes causes reste une tâche chronophage, nécessitant des traitements manuels, souvent sources d’erreurs ou de retards. 
--Enfin, l’absence d’un outil de suivi statistique empêche les organisations d’analyser les performances de leurs campagnes, de mesurer leur efficacité et d’ajuster leurs stratégies en conséquence.
--Ces défis soulignent la nécessité d’un système automatisé et structuré pour gérer les dons de manière plus efficace, transparente et durable.
+La gestion manuelle des dons caritatifs engendre plusieurs limitations majeures qui freinent l’efficacité et la transparence des actions menées :
+
+- **Difficulté à suivre l’évolution des dons par cause** : Il est souvent difficile de suivre précisément l’évolution des dons associés à chaque cause, notamment en l’absence d’un système centralisé de collecte et d’enregistrement.
+  
+- **Manque de visibilité sur l'impact des dons collectés** : Le manque de traçabilité rend également plus complexe l’évaluation de l’impact réel des fonds collectés sur les projets soutenus.
+  
+- **Processus d’attribution de dons chronophage** : L’attribution des dons aux différentes causes reste une tâche chronophage, nécessitant des traitements manuels, souvent sources d’erreurs ou de retards.
+  
+- **Absence de suivi des statistiques** : L’absence de suivi des statistiques empêche les organisations d’analyser les performances de leurs campagnes, de mesurer leur efficacité et d’ajuster leurs stratégies en conséquence.
+
+Ces défis soulignent la nécessité d’un système automatisé et structuré pour gérer les dons de manière **plus efficace**, **transparente** et **durable**.
 
 ---
 
