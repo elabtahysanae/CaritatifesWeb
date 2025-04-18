@@ -75,6 +75,18 @@ Créer une plateforme centralisée pour :
 
 <img width="483" alt="image" src="https://github.com/user-attachments/assets/f3446717-4fc7-4797-9c13-f675e31d888e" />
 
+-**l'Authentification**
+
+![authentifier](https://github.com/user-attachments/assets/2898b458-a937-45ba-9115-3556f162f466)
+
+-**L'Inscription**
+
+![inscrir](https://github.com/user-attachments/assets/9d417a22-9dec-4ab9-a9ff-77f6d735a449)
+
+-**Le dashboard d'Admin**
+
+![dashboard](https://github.com/user-attachments/assets/0aba4b5c-ddb8-46d3-9985-62e3539975f2)
+
 ---
 
 ## 🛠 **Technologies**
